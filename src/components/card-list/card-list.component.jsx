@@ -12,14 +12,7 @@ class CardList extends Component {
             <div className='cardList'>
                 {monsters.map( (e) => {
                     return( 
-                        <Card monster={e}/>
-                    // <div key={e.id} className="cardElement">
-                    //     <img src={`https://robohash.org/${e.id}?set=set2&size=180x180`} alt="monster" className='monster-img'/>
-                    //     <h1>{e.name}</h1>
-                    //     <h2>{e.email}</h2>
-                    //     </div>
-                        
-                        
+                        <Card monster={e}/>    
                         )
                 })}
             </div>
