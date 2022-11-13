@@ -44,7 +44,7 @@ class App extends Component {
   render(){
 
     // console.log('render')
-    const { monsters, originalMonsters } = this.state;
+    const { monsters } = this.state;
     const { onSearchChange } = this;
 
   return (
